@@ -19,6 +19,7 @@ const Home = () => {
             xaxaaxxa nikiiii
           </div>
           <motion.div
+            initial={{ y: "-55vh", scale: 1 }}
             animate={{
               y: hovere ? "0vh" : "-55vh",
               scale: hovere ? 2.2 : 1,
