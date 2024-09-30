@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.clip {
+  right: 0;
+  overflow: hidden;
+  top: -26.8rem;
+  clip-path: polygon(100% 20%, 50% 100%, 0 20%, 0 0, 100% 0);
+}
+.wrapper {
+}
